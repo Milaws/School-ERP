@@ -4,16 +4,39 @@
 #autofill-area .label-field-pair {
     margin:0 95px 10px 0;
 }
-#admission1_form_vertical_block_left {
-    padding-bottom: 20px;
-}
+
 .label_field_pair {
     width:600px;
     height: 40px;
     padding-top: 3px;
 }
+.label-field-pair-name-gen{
+    float:left;
+    height:80px;
+    width:450px;
+}
+.label-field-pair-name-gen label {
+    color:#444444;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.label-field-pair-name{
+    float:left;
+    height:80px;
+    width:450px;
+}
+.label-field-pair-name label {
+    color:#444444;
+    display:block;
+    float:left;
+    margin:0 0 10px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
 
-.label_field_pair label.label_for_gender {
+.label-field-pair-name-gen label.label_for_gender {
     font-weight:normal;
     display:inline;
 }
@@ -37,15 +60,15 @@
     display:block;
     color:#444;
     margin-bottom:10px;
-    width:200px;
+    width:90px;
     float:left;
 }
 .student_gender_value{
-    width:300px;
+    width:200px;
     float:left;
     padding-top: 5px;
 }
-.label_field_pair label.label_for_gender {
+.label-field-pair-name-gen label.label_for_gender {
     font-weight:normal;
     display:inline;
 }
@@ -84,6 +107,7 @@
     padding-left:10px;
     padding-top:5px;
 }
+
 .label_field_pair select {
     background : #eee;
     border: none;
@@ -91,13 +115,16 @@
     margin: 5px 0 0 5px;
     width: 220px;
 }
-.label_field_pair .label_for_gender {
+
+
+.label-field-pair-name-gen .label_for_gender {
     margin:0;
     display:block;
     padding-top:5px;
     padding-right:10px;
     padding-left:10px;
 }
+
 #student_gender_true,
 #student_gender_false {
     margin:0;
@@ -202,6 +229,18 @@
     width:205px;
     text-align: left;
 }
+.text-input-bg1 input  {
+    -moz-border-radius:10px 10px 10px 10px;
+    -webkit-border-radius:10px;
+    background:none repeat scroll 0 0 #EEEEEE;
+    border:1px solid #C6C6C6;
+    height:17px;
+    margin:5px 0 0 10px;
+    padding:5px;
+    width:205px;
+    text-align: left;
+}
+
 input#student_image_file {
     height:24px;
 }
@@ -227,4 +266,7 @@ input#student_image_file {
 
 input#student_photo{
     height: 28px;
+}
+.name{
+    display: block;
 }

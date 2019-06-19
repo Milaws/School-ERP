@@ -1,13 +1,11 @@
 default: "en"
 available:
-  ar: "العربية"
   en: "English"
-  es: "Español"
-  hi: "हिंदी"
-  de: "Deutsch"
-  pt: "português"
-  mr: "मराठी"
-  ja: "日本の"
+  de: "ኣማርኛ"
+  ja: "ትግርኛ"
+  pt: "oromo"
+  mr: "arebic"
+  
   
 fallbacks:
   en-GB:

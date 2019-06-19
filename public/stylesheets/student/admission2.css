@@ -155,3 +155,31 @@ ul#parents-list li.listeven {
     color : #f00;
     font-size : 1.1em;
 }
+
+
+.label-field-pair-name{
+    float:left;
+    height:80px;
+    width:450px;
+}
+.label-field-pair-name label {
+    color:#444444;
+    display:block;
+    float:left;
+    margin:0 0 10px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.text-input-bg1 input  {
+    -moz-border-radius:10px 10px 10px 10px;
+    -webkit-border-radius:10px;
+    background:none repeat scroll 0 0 #EEEEEE;
+    border:1px solid #C6C6C6;
+    height:17px;
+    margin:5px 0 0 10px;
+    padding:5px;
+    width:205px;
+    text-align: left;
+}
